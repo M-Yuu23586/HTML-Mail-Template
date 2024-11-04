@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>メールフッター</title>
+</head>
+<body>
+    <style>
+        /* フォントスタイルをnoto-sansに指定 */
+        body {
+            font-family: 'Noto Sans JP', sans-serif;
+            font-size: calc(100% - 5px);
+        }
+        h1 {
+            margin: 0;
+            font-size: calc(20px - 5px);
+            color: #999;
+        }
+        hr {
+            margin: 10px 0;
+            border: none;
+            border-top: 1px solid #999;
+        }
+        /* 表を左揃えに設定 */
+        table {
+            text-align: left;
+        }
+        th {
+            width: 100px;
+            font-weight: normal;
+        }
+        a {
+            color: #999;
+        }
+        /* 表のテキストカラーを設定 */
+        td {
+            color: #999;
+        }
+        /* 表見出しを太字に設定 */
+        th {
+            font-weight: bold;
+            /* 表見出しの色を同じに */
+            color: #999;
+        }
+        /* レスポンシブデザイン */
+        @media screen and (max-width: 480px) {
+            th {
+            width: 50px;
+            }
+            td {
+            padding: 5px 0;
+            }
+        }
+        p {
+            font-size: calc(12px - 5px);
+            color: #999;
+        }
+    </style>
+    <footer>
+        <hr>
+        <h1>松村優</h1>
+        <table>
+            <tr>
+                <th id="map">住所</th>
+                <td>〒618-0081 京都府大山崎町下植野宮脇1-173</td>
+            </tr>
+            <tr>
+                <th id="TEL">TEL</th>
+                <td>070-1802-0511</td>
+            </tr>
+            <tr>
+                <th id="E-mail">E-mail</th>
+                <td><a href="mailto:Yuukun20020511@iCloud.com">Yuukun20020511@iCloud.com</a></td>
+            </tr>
+        </table>
+        <!-- このフッターはIDEで作成しましたと下部に文字列を記述 -->
+        <p>このフッターはIDEで作成しました。<br>
+            詳しく知りたい方は
+            <a href="https://azure.microsoft.com/ja-jp/products/visual-studio-code/">
+                こちら
+            </a>
+        </p>
+    </footer>
+</body>
+</html>
