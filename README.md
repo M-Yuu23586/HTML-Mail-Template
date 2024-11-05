@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/img/Mail.png" alt="HTML Template icon">
+    <img src="/img/icon/テンプレート　アイコン.png" alt="HTML Template icon">
 </p>
 
 # 目次
