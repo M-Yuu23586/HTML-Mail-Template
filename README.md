@@ -1,3 +1,5 @@
+# HTML-Mail-Template
+
 <p align="center">
     <img src="/img/icon/テンプレート　アイコン.png" alt="HTML Template icon">
 </p>
