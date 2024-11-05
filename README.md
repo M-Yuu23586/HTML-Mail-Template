@@ -99,10 +99,157 @@ git clone https://github.com/M-Yuu23586/HTML-Mail-Template.git
 ## テンプレート一覧
 テンプレートのユースケースは以下の通りになります。
 ### テンプレート1: 概要と使用例
-シンプルなニュースレターテンプレート。使用例として、週刊ニュースレターに最適です。
+シンプルなニュースレターテンプレート。使用例として、週刊ニュースレターに最適です。以下に具体的な使用例を示します。
+
+### 使用例
+このテンプレートは、週刊ニュースレターの作成に最適です。以下は、ニュースレターのサンプルです。
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>週刊ニュースレター</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #0073e6;
+            color: #ffffff;
+        }
+        .content {
+            padding: 20px;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #0073e6;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>週刊ニュースレター</h1>
+        </div>
+        <div class="content">
+            <h2>今週のトピック</h2>
+            <p>最新のニュースやイベント情報をお届けします。</p>
+            <h3>ニュース1</h3>
+            <p>ここにニュースの詳細を記載します。</p>
+            <h3>ニュース2</h3>
+            <p>ここにニュースの詳細を記載します。</p>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 会社名. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+このテンプレートを使用することで、簡単に週刊ニュースレターを作成し、読者に最新情報を提供することができます。
 
 ### テンプレート2: 概要と使用例
-プロモーション用テンプレート。新製品の紹介やセール情報の配信に適しています。
+プロモーション用テンプレート。新製品の紹介やセール情報の配信に適しています。以下に具体的な使用例を示します。
+
+### 使用例
+このテンプレートは、新製品の紹介やセール情報の配信に最適です。以下は、プロモーションメールのサンプルです。
+
+```html
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プロモーションメール</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .header {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #ff6600;
+            color: #ffffff;
+        }
+        .content {
+            padding: 20px;
+        }
+        .product {
+            margin-bottom: 20px;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+        .product h2 {
+            color: #333333;
+        }
+        .product p {
+            color: #666666;
+        }
+        .footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #ff6600;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>新製品のご紹介</h1>
+        </div>
+        <div class="content">
+            <div class="product">
+                <img src="product-image.jpg" alt="新製品">
+                <h2>新製品名</h2>
+                <p>この新製品は、最新の技術を駆使して開発されました。今だけ特別価格でご提供します。</p>
+            </div>
+            <div class="product">
+                <img src="sale-image.jpg" alt="セール情報">
+                <h2>セール情報</h2>
+                <p>期間限定セールを開催中です。お見逃しなく！</p>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy; 2023 会社名. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
+```
+
+このテンプレートを使用することで、効果的に新製品の紹介やセール情報を顧客に伝えることができます。
 
 ### テンプレート3: 概要と使用例
 イベント招待用テンプレート。イベントの詳細や参加登録リンクを含めることができます。
