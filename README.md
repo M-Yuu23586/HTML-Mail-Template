@@ -42,3 +42,27 @@
 2. ダウンロードしたZIPファイルを解凍します。
 3. 必要に応じてテンプレートをカスタマイズします。
 4. メールクライアントでテンプレートをテストします。
+## 推奨環境
+このテンプレートを使用するための推奨環境は以下の通りです。
+
+### メールクライアント
+- Microsoft Outlook 2016以降
+- Gmail
+- Apple Mail
+- Yahoo Mail
+
+### ブラウザ
+- Google Chrome 最新版
+- Mozilla Firefox 最新版
+- Safari 最新版
+- Microsoft Edge 最新版
+
+### その他
+- HTMLとCSSの基本的な知識
+- テキストエディタ（例: VSCode, Sublime Text）
+
+## ライセンス
+このプロジェクトはMITライセンスの下で公開されています。詳細については[LICENSE](LICENSE)ファイルを参照してください。
+
+## お問い合わせ
+質問やフィードバックがある場合は、[issues](https://github.com/M-Yuu23586/HTML-Mail-Template/issues)ページからお問い合わせください。
